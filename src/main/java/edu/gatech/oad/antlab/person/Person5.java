@@ -5,7 +5,7 @@ package edu.gatech.oad.antlab.person;
  *  returns their name and a
  *  modified string 
  *  
- *  @author Bob
+ *  @author Tu Nguyen
  *  @version 1.1
  */
 public class Person5 {
@@ -42,9 +42,6 @@ public class Person5 {
 		}
 		return input;
 	}
-
-	
-	
 	/**
 	 * Return a string rep of this object
 	 * that varies with an input string
