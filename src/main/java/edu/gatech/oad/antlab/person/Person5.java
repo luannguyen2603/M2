@@ -31,8 +31,19 @@ public class Person5 {
 	 */
 	private String calc(String input) {
 	  //Person 5 put your implementation here
-	  return null;
+		if (input.length() > 2) {
+			StringBuilder sb = new StringBuilder();
+			for (int i = 2; i < input.length(); i++) {
+				sb.append(input.charAt(i));
+			}
+			sb.append(input.charAt(0));
+			sb.append(input.charAt(1));
+			return sb.toString();
+		}
+		return input;
 	}
+
+	
 	
 	/**
 	 * Return a string rep of this object
