@@ -31,16 +31,15 @@ public class Person4 {
      */
     private String calc(String input) {
       //Person 4 put your implementation here
-        String name= "abc123";
     String newName="";
     char letter = '0';
     int number=0;
 
-    for(int i = 0; i < name.length();i++) {
-        if(name.charAt(i) + 1 == 127) {
-            number = name.charAt(i) ;
+    for(int i = 0; i < input.length();i++) {
+        if(input.charAt(i) + 1 == 127) {
+            number = input.charAt(i) ;
         } else {
-            number = name.charAt(i) + 1;
+            number = input.charAt(i) + 1;
         }
 
         letter = (char)number;
